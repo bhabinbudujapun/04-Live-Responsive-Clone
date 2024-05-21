@@ -11,20 +11,22 @@
 
 <body>
     <header class="bg-[#7030cc]">
-        <div class="px-12 py-9 flex justify-between items-center">
+        <div class="px-10 md:px-16 py-7 flex justify-between items-center">
             <div>
-                <img src="./assets/Logo.png" class="h-8 w-17" alt="Company Log">
+                <img src="./assets/Logo.png" class="h-6 w-15 md:h-8 md:w-18" alt="Company Log">
             </div>
-            <div class="w-3/4 flex justify-between">
-                <a href="#" class="text-white">Home</a>
-                <a href="#" class="text-white">Services</a>
-                <a href="#" class="text-white">Pricing</a>
-                <a href="#" class="text-white">Tesimonials</a>
-                <a href="#" class="text-white">Blog</a>
-                <button class="text-white">FREE TRIAL</button>
+            <div class="hidden md:block w-3/4 lg:w-3/5">
+                <div class="flex flex-row justify-between items-center">
+                    <a href="#" class="text-white font-medium">Home</a>
+                    <a href="#" class="text-white font-medium">Services</a>
+                    <a href="#" class="text-white font-medium">Pricing</a>
+                    <a href="#" class="text-white font-medium">Testimonials</a>
+                    <a href="#" class="text-white font-medium">Blog</a>
+                    <button class="bg-[#1bbcef] text-white font-medium px-5 py-2.5 rounded-sm">FREE TRIAL</button>
+                </div>
             </div>
             <div class="md:hidden">
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-bars text-2xl text-white"></i>
             </div>
         </div>
     </header>
