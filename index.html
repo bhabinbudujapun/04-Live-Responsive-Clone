@@ -129,8 +129,15 @@
 
     <!-- Footer -->
     <footer class="bg-[#7030cc] text-white text-center py-6 mt-10">
-        <p class="text-sm">© 2025 Bhabin. All Rights Reserved.</p>
+        <p class="text-sm">© <span id="year"></span>
+            Bhabin. All Rights Reserved.
+        </p>
     </footer>
+
+    <script>
+        const currentYear = new Date().getFullYear();
+        document.getElementById('year').innerText = currentYear;
+    </script>
 
 </body>
 
